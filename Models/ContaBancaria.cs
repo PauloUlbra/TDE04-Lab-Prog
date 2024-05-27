@@ -14,6 +14,7 @@ namespace TDE04.Models
             Titular = titular;
             Saldo = saldo;
         }
+        
         public string NumeroConta { get; set; }
         public string Titular { get; set; }
         public decimal Saldo { get; set; }

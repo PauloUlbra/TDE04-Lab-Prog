@@ -11,9 +11,9 @@ namespace TDE04.Models
         public string Nome { get; set; }
         public float Preco { get; set; }
 
-        public Produto()
+        public Produto() // O construtor é um método especial que é instanciado
         {
-            Nome = "Desconhecido";
+            Nome = "Não informado";
             Preco = 0.0f;
         }
         public Produto(string nome, float preco)
